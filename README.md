@@ -1,11 +1,12 @@
 # 🛒 Lista Fácil
 
 Um aplicativo Android nativo para gerenciamento de listas de compras, com recurso de **inteligência artificial (OCR)** para escanear listas manuscritas ou impressas diretamente pela câmera.
-Com a lista no smartphone, você pode ir marcando os itens que colocou no carrinho enquanto faz suas compras. Simples e útil.
+Depois da lista gerada pelo app, edite os nomes, quantidades, unidades e inclua marcas ou observações que deseje. Você pode inclusive inserir mais itens manualmente ou digitalizar outras listas para agragar em uma única.
+Já no supermercado, com a lista em seu smartphone, você pode ir marcando os itens que colocou no carrinho enquanto faz suas compras. Simples e útil.
 
 ## 📱 Funcionalidades
 
-* **Lista Interativa:** Adicione, marque e exclua itens com facilidade.
+* **Lista Interativa:** Adicione, edite, marque e exclua itens com facilidade.
 * **Scanner Inteligente:** Use a câmera para fotografar uma lista de papel, quadro ou lousa.
 * **Recorte (Crop):** Interface para recortar a imagem antes do processamento, melhorando a precisão.
 * **OCR Offline:** Utiliza o Google ML Kit para reconhecer texto sem precisar de internet.
@@ -31,6 +32,13 @@ Com a lista no smartphone, você pode ir marcando os itens que colocou no carrin
 2.  Abra no Android Studio (Ladybug ou superior).
 3.  Aguarde o Sync do Gradle.
 4.  Execute em um dispositivo físico (recomendado para testar a câmera) ou emulador.
+
+## 🔜 Próximos Passos (Roadmap)
+
+Planejamento para as futuras versões do Lista Fácil:
+
+* 🎙️ **Inserção por Voz:** Funcionalidade para adicionar itens à lista ditando os nomes, utilizando Speech-to-Text.
+* 💲 **Calculadora de Preços:** Inclusão de coluna valor (R$), permitindo que o usuário veja o subtotal do carrinho antes de chegar ao caixa.
 
 ## 👨‍💻 Autor
 
